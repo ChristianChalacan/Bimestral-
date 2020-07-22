@@ -1,3 +1,33 @@
+
+.containermain{
+  background: #f6ab6c;
+  display: flex;
+  justify-content: center;
+  border: 10px solid;
+  border-color: white;
+  padding: 20px;
+}
+.colortablero{
+  background: #99b898;
+  border:10px solid;
+  border-color: #99b898 !important;
+}
+
+.brdcasilla1{
+  border-left: 5px solid;
+  border-top: 5px solid;
+  border-bottom: 5px solid;
+}
+.brdcasilla2{
+  border-right: 5px solid;
+  border-top: 5px solid;
+  border-bottom: 5px solid;
+}
+.brdall{
+  border: 5px solid;
+}
+/*---------------*/
+
 .col-left-right{
     max-width: 100px;
     margin: 0px;
@@ -31,10 +61,11 @@
     border: 1px black solid;
     margin: 0px;
 }
-.instructions{
+/*.instructions{
     position: absolute;
     margin: 10px;
     left: 1100px;
     top: 0px;
     border: 1px black solid;
-}
+}*/
+/*--------------------------*/
