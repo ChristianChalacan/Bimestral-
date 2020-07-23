@@ -31,8 +31,27 @@
   border: 2px solid;
   border-color: white;
 }
+.textvertical {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+.sizeletterscas{
+  font-size: 22px;
+}
+/*-----------imagenes----*/
 
-/*---------------*/
+.imgbottle{
+  background-image: url("./img/icon/alcohol.png");
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+  height: 60px;
+}
+
+
+
+
+/*-----------imagenes----*/
 
 .col-left-right{
     max-width: 100px;
@@ -75,3 +94,16 @@
     border: 1px black solid;
 }*/
 /*--------------------------*/
+
+<div class="row-lg-12">
+  <div class="col bg-success">
+    <img src="./img/icon/alcohol.png" alt="">
+  </div>
+  <div class="col textvertical">
+    <h4>Drink</h4>
+  </div>
+  <div class="col bg-danger">
+    kjkljk
+  </div>
+
+</div>
