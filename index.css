@@ -25,6 +25,16 @@
 }
 .brdall{
   border: 5px solid;
+  border-left: 1px;
+  border-right: 1px;
+}
+.brdall-botton{
+  border-top: 1px;
+  bottom:0px;
+  position:absolute;
+}
+.brdall-top{
+  border-bottom: 1px;
 }
 .containerplayer{
   background: #99b898;
@@ -41,11 +51,12 @@
 /*-----------imagenes----*/
 
 .imgbottle{
-  background-image: url("./img/icon/alcohol.png");
   background-position: center;
   background-attachment: contain;
   background-size: cover;
   height: 60px;
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -64,6 +75,7 @@
 .colcenter{
     max-width: 702px;
     padding: 0px;
+    border: none;
 }
 .cuadrados{
     width: 100px;
@@ -86,24 +98,3 @@
     border: 1px black solid;
     margin: 0px;
 }
-/*.instructions{
-    position: absolute;
-    margin: 10px;
-    left: 1100px;
-    top: 0px;
-    border: 1px black solid;
-}*/
-/*--------------------------*/
-
-<div class="row-lg-12">
-  <div class="col bg-success">
-    <img src="./img/icon/alcohol.png" alt="">
-  </div>
-  <div class="col textvertical">
-    <h4>Drink</h4>
-  </div>
-  <div class="col bg-danger">
-    kjkljk
-  </div>
-
-</div>
