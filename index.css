@@ -26,6 +26,12 @@
 .brdall{
   border: 5px solid;
 }
+.containerplayer{
+  background: #99b898;
+  border: 2px solid;
+  border-color: white;
+}
+
 /*---------------*/
 
 .col-left-right{
