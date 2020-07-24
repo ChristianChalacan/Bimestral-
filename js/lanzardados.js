@@ -1,11 +1,13 @@
 function lanzardados() {
 
-    let dado1 = Math.floor(Math.random() * (6 - 1)) + 1;
-    let dado2 = Math.floor(Math.random() * (6 - 1)) + 1;
-    let suma = dado1 + dado2;
+    let dice1 = Math.floor(Math.random() * (6 - 1)) + 1;
+    let dice2 = Math.floor(Math.random() * (6 - 1)) + 1;
+    let sumdice = dice1 + dice2;
+    let currentPosition = 0;
 
-    console.log(dado1 + "-" + dado2);
+    console.log(dice1 + "-" + dice2);
 
+    /*******Rotar dados*******/
     $({ deg: 0 }).animate({ deg: 360 }, {
         duration: 600,
         step: function (now) {
@@ -19,6 +21,11 @@ function lanzardados() {
         }
     });
 
-    document.getElementById("ImgDado1").src = "img/dados/" + dado1 + ".png";
-    document.getElementById("ImgDado2").src = "img/dados/" + dado2 + ".png";
+    document.getElementById("ImgDado1").src = "img/dados/" + dice1 + ".png";
+    document.getElementById("ImgDado2").src = "img/dados/" + dice2 + ".png";
+
+    currentPosition += sumdice;
+    $( '.tablero .celda' )
+        .eq( currentPosition )
+        .html( $( '.ficha' ) );
 }

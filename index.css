@@ -43,6 +43,7 @@
 .textvertical {
     writing-mode: vertical-lr;
     transform: rotate(180deg);
+    padding: 0px;
 }
 .sizeletterscas{
   font-size: 22px;
@@ -50,12 +51,10 @@
 /*-----------imagenes----*/
 
 .imgbottle{
-  background-position: center;
-  background-attachment: contain;
-  background-size: cover;
-  height: 60px;
-  display: flex;
-  justify-content: center;
+    background-image: url("./img/icon/alcohol.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60px;
 }
 
 
@@ -84,11 +83,15 @@
     width: 100px;
     border: 1px black solid;
 }
+
 .rectangulos1{
     height: 100px;
     width: 78px !important;
     border: 1px black solid;
     padding: 0;
+}
+.brd-r{ /**Arreglar el borde derecho**/
+    border-right: 5px black solid;
 }
 .center{
     width: 702px;
@@ -112,4 +115,105 @@
 .go{
   width: 100%;
   margin: 0 auto;
+}
+/***********Casillas************/
+#c1{
+    background-image: url("./img/icon/go.png");
+    background-size: cover;
+}
+#c2{
+    background-image: url("./img/exercises/lunge.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 16px;
+}
+
+#c4{
+    background-image: url("./img/exercises/pushUp.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 16px;
+}
+#c6{
+    background-image: url("./img/exercises/chairStepUp.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 16px;
+}
+#c8{
+    background-image: url("./img/exercises/jumpingJacks.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 16px;
+}
+#c10{
+    background-image: url("./img/exercises/kneesPull-Ins.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 16px;
+}
+#c12{
+    background-image: url("./img/exercises/bodyweightSquats.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#c14{
+     background-image: url("./img/exercises/pelvicscoop.png");
+     background-size: contain;
+     background-repeat: no-repeat;
+ }
+#c16{
+      background-image: url("./img/exercises/elevatedSidePlank.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+  }
+#c18{
+    background-image: url("./img/exercises/kneeBentPushUp.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#c20{
+    background-image: url("./img/exercises/kneeBentPushUp.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#c22{
+    background-image: url("./img/exercises/plankLegRaise.png ");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 16px;
+}
+#c24{
+    background-image: url("./img/exercises/jumpingJacks.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 16px;
+}
+#c26{
+        background-image: url("./img/exercises/sidePlank.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 16px;
+}
+#c28{
+    background-image: url("./img/exercises/sideKick.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 16px;
+}
+#c30{
+    background-image: url("./img/exercises/rotation.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 16px;
+}
+
+
+/**********Ficha***********/
+.ficha{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: #ee1111;
+    border: 2px solid #000000;
 }
