@@ -89,12 +89,30 @@
 }
 .rectangulos1{
     height: 100px;
-    width: 78px;
+    width: 78px !important;
     border: 1px black solid;
+    padding: 0;
 }
 .center{
     width: 702px;
     height: 702px;
     border: 1px black solid;
     margin: 0px;
+}
+
+/*--------------- IMAGENES DE EJERCICIOS ---------------*/
+.exercises{
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.ejercicio{
+  font-size: 75%;
+}
+.go{
+  width: 100%;
+  margin: 0 auto;
 }
