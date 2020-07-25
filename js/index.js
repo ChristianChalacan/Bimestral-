@@ -43,7 +43,7 @@ function lanzardados() {
 
                     setTimeout(function(){
 
-                        alert("El jugador 1 gano el juego");
+                        alert("El jugador 1  gano el juego");
                         $('.ficha1').remove();
                         $('.ficha2').remove();
                         $( '#c'+1 )
@@ -58,12 +58,10 @@ function lanzardados() {
 
                 }
             }else{
-
                 $( '#c'+currentPosition1 )
                     .append( '<div class="ficha1"></div>' );
-
             }
-            $('.containerplayer1-mensaje').html("El jugador 1 avanza " + sumdice + " espacios").css("background-color", "rgba(255, 0, 0, 0.7)");
+            $('.containerplayer1-mensaje').html("Avanza " + sumdice + " espacios").css("background-color", "rgba(255, 0, 0, 0.7)");
             player = 2;
             break;
         case 2:
@@ -100,7 +98,7 @@ function lanzardados() {
                     .append( '<div class="ficha2"></div>' );
 
             }
-            $('.containerplayer2-mensaje').html("El jugador 2 avanza " + sumdice + " espacios");
+            $('.containerplayer2-mensaje').html("Avanza " + sumdice + " espacios");
             player = 1;
             break;
     }
