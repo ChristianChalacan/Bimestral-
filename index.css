@@ -239,11 +239,21 @@
  }
 
 /**********Ficha***********/
-.ficha{
-    position: absolute;
+.ficha1{
+    position: relative;
     width: 25px;
     height: 25px;
     background-color: #ee1111;
     border: 2px solid #000000;
     border-radius:20px;
+    margin: 5px;
+}
+.ficha2{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    background-color: #0000FF;
+    border: 2px solid #000000;
+    border-radius:20px;
+    margin: 5px;
 }
