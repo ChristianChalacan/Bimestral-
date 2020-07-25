@@ -37,10 +37,44 @@
 .brdall-top{
   border-bottom: 1px;
 }
-.containerplayer{
-  background: #99b898;
+.containerplayer1{
+  background: red;
   border: 2px solid;
   border-color: white;
+  font-weight: bold;
+  font-size: 150%;
+  color: white;
+  text-align: center;
+  border-radius:10px;
+}
+.containerplayer2{
+  margin-top: 25px;
+  background: blue;
+  border: 2px solid;
+  border-color: white;
+  font-weight: bold;
+  font-size: 150%;
+  color: white;
+  text-align: center;
+  border-radius:10px;
+}
+.containerplayer1-mensaje{
+  margin-top: 15px;
+  background: rgba(255, 0, 0, 0.7);
+  font-weight: bold;
+  font-size: 120%;
+  color: white;
+  text-align: center;
+  border-radius:10px;
+}
+.containerplayer2-mensaje{
+  margin-top: 15px;
+  background: rgba(0, 0, 255, 0.7);
+  font-weight: bold;
+  font-size: 120%;
+  color: white;
+  text-align: center;
+  border-radius:10px;
 }
 .textvertical {
     writing-mode: vertical-lr;
