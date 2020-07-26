@@ -39,6 +39,7 @@ function lanzardados() {
                 currentPosition1 -= 40;
                 $( '#c'+currentPosition1 )
                     .append( '<div class="ficha1"></div>' );
+
                 if (currentPosition1==1){
 
                     setTimeout(function(){
@@ -60,6 +61,7 @@ function lanzardados() {
             }else{
                 $( '#c'+currentPosition1 )
                     .append( '<div class="ficha1"></div>' );
+
             }
             $('.containerplayer1-mensaje').html("Avanza " + sumdice + " espacios").css("background-color", "rgba(255, 0, 0, 0.7)");
             player = 2;
@@ -90,7 +92,6 @@ function lanzardados() {
                         document.getElementById("ImgDado2").src = "img/dados/rnd.png";
 
                         }, 2000);
-
                 }
             }else{
 
