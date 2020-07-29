@@ -524,7 +524,13 @@ function lanzardados() {
                         $('.container-descripcion-mensaje').html("Apoya las manos en la cintura, separa un poco las piernas, luego dar un paso hacia adelante procurando que la pierna no se doble más de 90 grados, la pierna de atrás se flexionará hasta casi tocar el suelo. Volver a la posición inicial y realizar el mismo proceso con la otra pierna. Procura que la espalda se mantenga recta para evitar lesiones.");      
                         $('.container-descripcion-reto').html("Realiza 15 repeticiones");
                     }
-                    
+                    if(currentPosition1 == 39 || currentPosition1 == 37 || currentPosition1 == 35 || currentPosition1 == 33 || currentPosition1 == 31 || currentPosition1 == 29 || currentPosition1 == 27 || currentPosition1 == 25 || currentPosition1 == 23 || currentPosition1 == 21 || currentPosition1 == 19 || currentPosition1 == 17 || currentPosition1 == 15 || currentPosition1 == 13 || currentPosition1 == 11 || currentPosition1 == 9 || currentPosition1 == 7 || currentPosition1 == 5 || currentPosition1 == 3 || currentPosition1 == 1){
+                        $('.containerplayer2-reto').html("");        
+                        $('.containerplayer1-reto').html("");
+                        $('.container-nombre').html("");
+                        $('.container-descripcion-mensaje').html("");      
+                        $('.container-descripcion-reto').html("");
+                    }                    
                 }            
             player = 2;    
             break;
@@ -652,7 +658,7 @@ function lanzardados() {
                         $('.containerplayer2-mensaje').html("Regresa 5 espacios");
                         $('.ficha2').remove();
                         $( '#c'+ 40 )
-                            .append( '<div class="ficha1"></div>' );
+                            .append( '<div class="ficha2"></div>' );
                         }, 1000);
                     currentPosition2 = 40;
                 }
@@ -1029,7 +1035,6 @@ function lanzardados() {
                         $('.container-descripcion-mensaje').html("");      
                         $('.container-descripcion-reto').html("");
                     }
-
 
                 }                
             player = 1;       
