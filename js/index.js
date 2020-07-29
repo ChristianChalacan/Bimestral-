@@ -54,9 +54,10 @@ function lanzardados() {
 
                         document.getElementById("ImgDado1").src = "img/dados/rnd.png";
                         document.getElementById("ImgDado2").src = "img/dados/rnd.png";
+                        location.reload();
+                        }, 1000);
 
-                        }, 2000);
-
+                    
                 }
             }else{
                 $( '#c'+currentPosition1 )
@@ -551,8 +552,8 @@ function lanzardados() {
 
                         document.getElementById("ImgDado1").src = "img/dados/rnd.png";
                         document.getElementById("ImgDado2").src = "img/dados/rnd.png";
-
-                        }, 2000);
+                        location.reload();
+                        }, 1000);
                 }
             }else{
 
@@ -567,7 +568,7 @@ function lanzardados() {
                     setTimeout(function(){
                         alert("El jugador 2 avanza 3 espacios");
                         $('.containerplayer2-mensaje').html("Avanza 3 espacios");
-                        $('.ficha1').remove();
+                        $('.ficha2').remove();
                         $( '#c'+ 6 )
                             .append( '<div class="ficha2"></div>' );
                         }, 1000);
