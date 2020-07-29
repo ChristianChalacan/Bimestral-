@@ -91,7 +91,7 @@
   border-radius:10px;
 }
 .container-nombre{
-  margin-top: 15px;
+  margin-top: 50px;
   background: rgba(40, 167, 69, 0.7);
   font-weight: bold;
   border: 2px solid white;
@@ -101,7 +101,7 @@
   border-radius:10px;
 }
 .container-reto{
-  margin-top: 25px;
+  margin-top: 50px;
   background: rgba(0, 0, 0, 0.7);
   font-weight: bold;
   border: 2px solid white;
@@ -176,6 +176,7 @@
     height: 78px;
     width: 100px;
     border: 1px black solid;
+    text-align: center;
 }
 
 .rectangulos1{
@@ -183,6 +184,7 @@
     width: 78px !important;
     border: 1px black solid;
     padding: 0;
+    text-align: center;
 }
 .brd-r{ /**Arreglar el borde derecho**/
     border-right: 5px black solid;
@@ -229,9 +231,20 @@
     background-repeat: no-repeat;
     background-position-y: 16px;
 }
-
+#c3{
+    background-image: url("./img/icon/run.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 16px;
+}
 #c4{
     background-image: url("./img/exercises/pushUp.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 16px;
+}
+#c5{
+    background-image: url("./img/icon/mancuerna.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position-y: 16px;
@@ -242,8 +255,20 @@
     background-repeat: no-repeat;
     background-position-y: 16px;
 }
+#c7{
+    background-image: url("./img/icon/run.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 16px;
+}
 #c8{
     background-image: url("./img/exercises/jumpingJacks.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 16px;
+}
+#c9{
+    background-image: url("./img/icon/mancuerna.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position-y: 16px;
@@ -259,22 +284,46 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+#c13{
+    background-image: url("./img/icon/run.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 18px;
+}
 #c14{
      background-image: url("./img/exercises/pelvicscoop.png");
      background-size: contain;
      background-repeat: no-repeat;
      background-position-x: 22px;
  }
+#c15{
+    background-image: url("./img/icon/mancuerna.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+}
 #c16{
       background-image: url("./img/exercises/elevatedSidePlank.png");
       background-repeat: no-repeat;
       background-size: contain;
-  }
+}
+#c17{
+    background-image: url("./img/icon/run.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 18px;
+}
 #c18{
     background-image: url("./img/exercises/kneeBentPushUp.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: 15px;
+}
+#c19{
+    background-image: url("./img/icon/mancuerna.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
 }
 #c20{
     background-image: url("./img/exercises/bodyweightSquats.png");
@@ -287,20 +336,44 @@
     background-repeat: no-repeat;
     background-position-y: 16px;
 }
+#c23{
+    background-image: url("./img/icon/mancuerna.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 16px;
+}
 #c24{
     background-image: url("./img/exercises/jumpingJacks.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position-y: 16px;
 }
+#c25{
+    background-image: url("./img/icon/run.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 16px;
+}
 #c26{
-        background-image: url("./img/exercises/sidePlank.png");
+    background-image: url("./img/exercises/sidePlank.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 16px;
+}
+#c27{
+    background-image: url("./img/icon/mancuerna.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position-y: 16px;
 }
 #c28{
     background-image: url("./img/exercises/sideKick.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 16px;
+}
+#c29{
+    background-image: url("./img/icon/run.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position-y: 16px;
@@ -317,11 +390,23 @@
      background-repeat: no-repeat;
      background-position-x: 22px;
  }
+ #c33{
+    background-image: url("./img/icon/run.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 18px;
+}
  #c34{
      background-image: url("./img/exercises/bodyweightSquats.png");
      background-size: contain;
      background-repeat: no-repeat;
  }
+ #c35{
+    background-image: url("./img/icon/mancuerna.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+}
  #c36{
      background-image: url("./img/exercises/sideKick.png");
      background-size: contain;
@@ -330,12 +415,24 @@
      background-position-y: 10px;
 
  }
+  #c37{
+    background-image: url("./img/icon/run.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 18px;
+}
  #c38{
      background-image: url("./img/exercises/jumpingJacks.png");
      background-size: contain;
      background-repeat: no-repeat;
      background-position-x: 8px;
  }
+ #c39{
+    background-image: url("./img/icon/mancuerna.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+}
  #c40{
      background-image: url("./img/exercises/pushUp.png");
      background-size: contain;

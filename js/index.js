@@ -64,6 +64,172 @@ function lanzardados() {
 
             }
             $('.containerplayer1-mensaje').html("Avanza " + sumdice + " espacios");
+
+
+    /*---------------------------------------------- AVANZAR FICHA ---------------------------------------------*/  
+                if (currentPosition1 == 3){
+                    setTimeout(function(){
+                        alert("El jugador 1 avanza 3 espacios");
+                        $('.containerplayer1-mensaje').html("Avanza 3 espacios");
+                        $('.ficha1').remove();
+                        $( '#c'+ 6 )
+                            .append( '<div class="ficha1"></div>' );
+                        }, 1000);
+                    currentPosition1 = 6;
+                }
+                if (currentPosition1 == 7){
+                    setTimeout(function(){
+                        alert("El jugador 1 avanza 3 espacios");
+                        $('.containerplayer1-mensaje').html("Avanza 3 espacios");
+                        $('.ficha1').remove();
+                        $( '#c'+ 10 )
+                            .append( '<div class="ficha1"></div>' );
+                        }, 1000);
+                    currentPosition1 = 10;
+                }
+                if (currentPosition1 == 13){
+                    setTimeout(function(){
+                        alert("El jugador 1 avanza 3 espacios");
+                        $('.containerplayer1-mensaje').html("Avanza 3 espacios");
+                        $('.ficha1').remove();
+                        $( '#c'+ 16 )
+                            .append( '<div class="ficha1"></div>' );
+                        }, 1000);
+                    currentPosition1 = 16;
+                }
+                if (currentPosition1 == 17){
+                    setTimeout(function(){
+                        alert("El jugador 1 avanza 3 espacios");
+                        $('.containerplayer1-mensaje').html("Avanza 3 espacios");
+                        $('.ficha1').remove();
+                        $( '#c'+ 20 )
+                            .append( '<div class="ficha1"></div>' );
+                        }, 1000);
+                    currentPosition1 = 20;
+                }
+                if (currentPosition1 == 25){
+                    setTimeout(function(){
+                        alert("El jugador 1 avanza 3 espacios");
+                        $('.containerplayer1-mensaje').html("Avanza 3 espacios");
+                        $('.ficha1').remove();
+                        $( '#c'+ 28 )
+                            .append( '<div class="ficha1"></div>' );
+                        }, 1000);
+                    currentPosition1 = 28;
+                }
+                if (currentPosition1 == 29){
+                    setTimeout(function(){
+                        alert("El jugador 1 avanza 3 espacios");
+                        $('.containerplayer1-mensaje').html("Avanza 3 espacios");
+                        $('.ficha1').remove();
+                        $( '#c'+ 32 )
+                            .append( '<div class="ficha1"></div>' );
+                        }, 1000);
+                    currentPosition1 = 32;
+                }
+                if (currentPosition1 == 33){
+                    setTimeout(function(){
+                        alert("El jugador 1 avanza 3 espacios");
+                        $('.containerplayer1-mensaje').html("Avanza 3 espacios");
+                        $('.ficha1').remove();
+                        $( '#c'+ 36 )
+                            .append( '<div class="ficha1"></div>' );
+                        }, 1000);
+                    currentPosition1 = 36;
+                }
+                if (currentPosition1 == 37){
+                    setTimeout(function(){
+                        alert("El jugador 1 avanza 3 espacios");
+                        $('.containerplayer1-mensaje').html("Avanza 3 espacios");
+                        $('.ficha1').remove();
+                        $( '#c'+ 40 )
+                            .append( '<div class="ficha1"></div>' );
+                        }, 1000);
+                    currentPosition1 = 40;
+                }
+
+    /*--------------------------------------------- REGRESAR FICHA --------------------------------------------*/  
+                if (currentPosition1 == 5){
+                    setTimeout(function(){
+                        alert("El jugador 1 regresa 5 espacios");
+                        $('.containerplayer1-mensaje').html("Regresa 5 espacios");
+                        $('.ficha1').remove();
+                        $( '#c'+ 40 )
+                            .append( '<div class="ficha1"></div>' );
+                        }, 1000);
+                    currentPosition1 = 40;
+                }
+                if (currentPosition1 == 9){
+                    setTimeout(function(){
+                        alert("El jugador 1 regresa 5 espacios");
+                        $('.containerplayer1-mensaje').html("Regresa 5 espacios");
+                        $('.ficha1').remove();
+                        $( '#c'+ 4 )
+                            .append( '<div class="ficha1"></div>' );
+                        }, 1000);
+                    currentPosition1 = 4;
+                }
+                if (currentPosition1 == 15){
+                    setTimeout(function(){
+                        alert("El jugador 1 regresa 5 espacios");
+                        $('.containerplayer1-mensaje').html("Regresa 5 espacios");
+                        $('.ficha1').remove();
+                        $( '#c'+ 10 )
+                            .append( '<div class="ficha1"></div>' );
+                        }, 1000);
+                    currentPosition1 = 10;
+                }
+                if (currentPosition1 == 19){
+                    setTimeout(function(){
+                        alert("El jugador 1 regresa 5 espacios");
+                        $('.containerplayer1-mensaje').html("Regresa 5 espacios");
+                        $('.ficha1').remove();
+                        $( '#c'+ 14 )
+                            .append( '<div class="ficha1"></div>' );
+                        }, 1000);
+                    currentPosition1 = 14;
+                }
+                if (currentPosition1 == 23){
+                    setTimeout(function(){
+                        alert("El jugador 1 regresa 5 espacios");
+                        $('.containerplayer1-mensaje').html("Regresa 5 espacios");
+                        $('.ficha1').remove();
+                        $( '#c'+ 18 )
+                            .append( '<div class="ficha1"></div>' );
+                        }, 1000);
+                    currentPosition1 = 18;
+                }
+                if (currentPosition1 == 27){
+                    setTimeout(function(){
+                        alert("El jugador 1 regresa 5 espacios");
+                        $('.containerplayer1-mensaje').html("Regresa 5 espacios");
+                        $('.ficha1').remove();
+                        $( '#c'+ 22 )
+                            .append( '<div class="ficha1"></div>' );
+                        }, 1000);
+                    currentPosition1 = 22;
+                }
+                if (currentPosition1 == 35){
+                    setTimeout(function(){
+                        alert("El jugador 1 regresa 5 espacios");
+                        $('.containerplayer1-mensaje').html("Regresa 5 espacios");
+                        $('.ficha1').remove();
+                        $( '#c'+ 30 )
+                            .append( '<div class="ficha1"></div>' );
+                        }, 1000);
+                    currentPosition1 = 30;
+                }
+                if (currentPosition1 == 39){
+                    setTimeout(function(){
+                        alert("El jugador 1 regresa 5 espacios");
+                        $('.containerplayer1-mensaje').html("Regresa 5 espacios");
+                        $('.ficha1').remove();
+                        $( '#c'+ 34 )
+                            .append( '<div class="ficha1"></div>' );
+                        }, 1000);
+                    currentPosition1 = 34;
+                }                
+
     /*--------------------------------- MOSTRAR DESCRIPCION DE LOS EJERCICIOS ---------------------------------*/
                 if((currentPosition2 >= currentPosition1) || (currentPosition2 <= currentPosition1))
                 { 
@@ -358,14 +524,6 @@ function lanzardados() {
                         $('.container-descripcion-reto').html("Realiza 15 repeticiones");
                     }
                     
-                    if(currentPosition1 == 39 || currentPosition1 == 37 || currentPosition1 == 35 || currentPosition1 == 33 || currentPosition1 == 31 || currentPosition1 == 29 || currentPosition1 == 27 || currentPosition1 == 25 || currentPosition1 == 23 || currentPosition1 == 21 || currentPosition1 == 19 || currentPosition1 == 17 || currentPosition1 == 15 || currentPosition1 == 13 || currentPosition1 == 11 || currentPosition1 == 9 || currentPosition1 == 7 || currentPosition1 == 5 || currentPosition1 == 3 || currentPosition1 == 1){
-                        $('.containerplayer2-reto').html("");        
-                        $('.containerplayer1-reto').html("");
-                        $('.container-nombre').html("");
-                        $('.container-descripcion-mensaje').html("");      
-                        $('.container-descripcion-reto').html("");
-                    }
-
                 }            
             player = 2;    
             break;
@@ -403,6 +561,171 @@ function lanzardados() {
 
             }
             $('.containerplayer2-mensaje').html("Avanza " + sumdice + " espacios");
+
+    /*---------------------------------------------- AVANZAR FICHA ---------------------------------------------*/  
+                if (currentPosition2 == 3){
+                    setTimeout(function(){
+                        alert("El jugador 2 avanza 3 espacios");
+                        $('.containerplayer2-mensaje').html("Avanza 3 espacios");
+                        $('.ficha1').remove();
+                        $( '#c'+ 6 )
+                            .append( '<div class="ficha2"></div>' );
+                        }, 1000);
+                    currentPosition2 = 6;
+                }
+                if (currentPosition2 == 7){
+                    setTimeout(function(){
+                        alert("El jugador 2 avanza 3 espacios");
+                        $('.containerplayer2-mensaje').html("Avanza 3 espacios");
+                        $('.ficha2').remove();
+                        $( '#c'+ 10 )
+                            .append( '<div class="ficha2"></div>' );
+                        }, 1000);
+                    currentPosition2 = 10;
+                }
+                if (currentPosition2 == 13){
+                    setTimeout(function(){
+                        alert("El jugador 2 avanza 3 espacios");
+                        $('.containerplayer2-mensaje').html("Avanza 3 espacios");
+                        $('.ficha2').remove();
+                        $( '#c'+ 16 )
+                            .append( '<div class="ficha2"></div>' );
+                        }, 1000);
+                    currentPosition2 = 16;
+                }
+                if (currentPosition2 == 17){
+                    setTimeout(function(){
+                        alert("El jugador 2 avanza 3 espacios");
+                        $('.containerplayer2-mensaje').html("Avanza 3 espacios");
+                        $('.ficha2').remove();
+                        $( '#c'+ 20 )
+                            .append( '<div class="ficha2"></div>' );
+                        }, 1000);
+                    currentPosition2 = 20;
+                }
+                if (currentPosition2 == 25){
+                    setTimeout(function(){
+                        alert("El jugador 2 avanza 3 espacios");
+                        $('.containerplayer2-mensaje').html("Avanza 3 espacios");
+                        $('.ficha2').remove();
+                        $( '#c'+ 28 )
+                            .append( '<div class="ficha2"></div>' );
+                        }, 1000);
+                    currentPosition2 = 28;
+                }
+                if (currentPosition2 == 29){
+                    setTimeout(function(){
+                        alert("El jugador 2 avanza 3 espacios");
+                        $('.containerplayer2-mensaje').html("Avanza 3 espacios");
+                        $('.ficha2').remove();
+                        $( '#c'+ 32 )
+                            .append( '<div class="ficha2"></div>' );
+                        }, 1000);
+                    currentPosition2 = 32;
+                }
+                if (currentPosition2 == 33){
+                    setTimeout(function(){
+                        alert("El jugador 2 avanza 3 espacios");
+                        $('.containerplayer2-mensaje').html("Avanza 3 espacios");
+                        $('.ficha2').remove();
+                        $( '#c'+ 36 )
+                            .append( '<div class="ficha2"></div>' );
+                        }, 1000);
+                    currentPosition2 = 36;
+                }
+                if (currentPosition2 == 37){
+                    setTimeout(function(){
+                        alert("El jugador 2 avanza 3 espacios");
+                        $('.containerplayer2-mensaje').html("Avanza 3 espacios");
+                        $('.ficha2').remove();
+                        $( '#c'+ 40 )
+                            .append( '<div class="ficha2"></div>' );
+                        }, 1000);
+                    currentPosition2 = 40;
+                }
+
+    /*--------------------------------------------- REGRESAR FICHA --------------------------------------------*/  
+                if (currentPosition2 == 5){
+                    setTimeout(function(){
+                        alert("El jugador 2 regresa 5 espacios");
+                        $('.containerplayer2-mensaje').html("Regresa 5 espacios");
+                        $('.ficha2').remove();
+                        $( '#c'+ 40 )
+                            .append( '<div class="ficha1"></div>' );
+                        }, 1000);
+                    currentPosition2 = 40;
+                }
+                if (currentPosition2 == 9){
+                    setTimeout(function(){
+                        alert("El jugador 2 regresa 5 espacios");
+                        $('.containerplayer2-mensaje').html("Regresa 5 espacios");
+                        $('.ficha2').remove();
+                        $( '#c'+ 4 )
+                            .append( '<div class="ficha2"></div>' );
+                        }, 1000);
+                    currentPosition2 = 4;
+                }
+                if (currentPosition2 == 15){
+                    setTimeout(function(){
+                        alert("El jugador 2 regresa 5 espacios");
+                        $('.containerplayer2-mensaje').html("Regresa 5 espacios");
+                        $('.ficha2').remove();
+                        $( '#c'+ 10 )
+                            .append( '<div class="ficha2"></div>' );
+                        }, 1000);
+                    currentPosition2 = 10;
+                }
+                if (currentPosition2 == 19){
+                    setTimeout(function(){
+                        alert("El jugador 2 regresa 5 espacios");
+                        $('.containerplayer2-mensaje').html("Regresa 5 espacios");
+                        $('.ficha2').remove();
+                        $( '#c'+ 14 )
+                            .append( '<div class="ficha2"></div>' );
+                        }, 1000);
+                    currentPosition2 = 14;
+                }
+                if (currentPosition2 == 23){
+                    setTimeout(function(){
+                        alert("El jugador 2 regresa 5 espacios");
+                        $('.containerplayer2-mensaje').html("Regresa 5 espacios");
+                        $('.ficha2').remove();
+                        $( '#c'+ 18 )
+                            .append( '<div class="ficha2"></div>' );
+                        }, 1000);
+                    currentPosition2 = 18;
+                }
+                if (currentPosition2 == 27){
+                    setTimeout(function(){
+                        alert("El jugador 2 regresa 5 espacios");
+                        $('.containerplayer2-mensaje').html("Regresa 5 espacios");
+                        $('.ficha2').remove();
+                        $( '#c'+ 22 )
+                            .append( '<div class="ficha2"></div>' );
+                        }, 1000);
+                    currentPosition2 = 22;
+                }
+                if (currentPosition2 == 35){
+                    setTimeout(function(){
+                        alert("El jugador 2 regresa 5 espacios");
+                        $('.containerplayer2-mensaje').html("Regresa 5 espacios");
+                        $('.ficha2').remove();
+                        $( '#c'+ 30 )
+                            .append( '<div class="ficha2"></div>' );
+                        }, 1000);
+                    currentPosition2 = 30;
+                }
+                if (currentPosition2 == 39){
+                    setTimeout(function(){
+                        alert("El jugador 2 regresa 5 espacios");
+                        $('.containerplayer2-mensaje').html("Regresa 5 espacios");
+                        $('.ficha2').remove();
+                        $( '#c'+ 34 )
+                            .append( '<div class="ficha2"></div>' );
+                        }, 1000);
+                    currentPosition2 = 34;
+                }                
+
 
     /*--------------------------------- MOSTRAR DESCRIPCION DE LOS EJERCICIOS ---------------------------------*/
                 
