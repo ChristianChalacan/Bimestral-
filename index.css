@@ -83,7 +83,6 @@
 }
 .container-descripcion-mensaje{
   margin-top: 15px;
-  background: rgba(40, 167, 69, 0.7);
   font-weight: bold;
   font-size: 100%;
   color: white;
@@ -93,7 +92,6 @@
 }
 .container-nombre{
   margin-top: 50px;
-  background: rgba(40, 167, 69, 0.7);
   font-weight: bold;
   border: 2px solid white;
   font-size: 100%;
