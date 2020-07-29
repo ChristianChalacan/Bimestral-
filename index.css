@@ -146,6 +146,18 @@
   font-size: 22px;
 }
 /*-----------imagenes----*/
+.changebtn{
+  background: blue !important;
+  border: 1px solid white;
+  color:white;
+
+}
+.btnchangerojo{
+  border: 1px solid white;
+  color: white;
+  font-size: 25px;
+
+}
 
 
 
