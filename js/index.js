@@ -1,12 +1,16 @@
 let currentPosition1 = 1;
 let currentPosition2 = 1;
 let player=1;
+
 $(document).ready(function(){
+
   $('#btnchange')
   .html('Lanza Rojo')
   .on('click',function(){
     if($(this).html()==='Lanza Rojo'){
+
       $(this).html('Lanza Azul')
+
     }else{
       $(this).html('Lanza Rojo')
     }
@@ -14,6 +18,7 @@ $(document).ready(function(){
 
   });
 }
+
 );
 
 function lanzardados() {
@@ -248,147 +253,6 @@ function lanzardados() {
     /*--------------------------------- MOSTRAR DESCRIPCION DE LOS EJERCICIOS ---------------------------------*/
                 if((currentPosition2 >= currentPosition1) || (currentPosition2 <= currentPosition1))
                 {
-                    if(currentPosition2 == 40){
-                        $('.containerplayer2-reto').html("");
-                        $('.containerplayer1-reto').html("JUGADOR 1");
-                        $('.container-nombre').css("background-color", "rgba(255, 0, 0, 0.7)").html("PUSH UP");
-                        $('.container-descripcion-mensaje').css("background-color", "rgba(255, 0, 0, 0.7)").html("Coloca las manos debajo de los hombros con los dedos índices apuntando hacia delante. Para mayor estabilidad en los brazos y en los hombros, mantén las manos firmes en el suelo e intenta rotar los codos hacia fuera. Dedos índice apuntando hacia delante. Coloca las manos justo debajo de los hombros.");
-                        $('.container-descripcion-reto').html("Realiza 10 repeticiones");
-                    }
-                    if(currentPosition2 == 38){
-                        $('.containerplayer2-reto').html("");
-                        $('.containerplayer1-reto').html("JUGADOR 1");
-                        $('.container-nombre').css("background-color", "rgba(255, 0, 0, 0.7)").html("JUMPING JACKS");
-                        $('.container-descripcion-mensaje').css("background-color", "rgba(255, 0, 0, 0.7)").css("background-color", "rgba(255, 0, 0, 0.7)").html("Primero, sitúate de pie con los pies juntos y los brazos extendidos a lo largo del cuerpo; Luego, salta con las piernas y los pies a los lados, mientras levantas los brazos por encima de la cabeza. Debes asegurarte de mantener las rodillas relajadas y de flexionarlas un poco mientras aterrizas. Esto hará que evites lesiones por el impacto repetitivo.");
-                        $('.container-descripcion-reto').html("Realiza el ejercicio por un minuto");
-                    }
-                    if(currentPosition2 == 36){
-                        $('.containerplayer2-reto').html("");
-                        $('.containerplayer1-reto').html("JUGADOR 1");
-                        $('.container-nombre').css("background-color", "rgba(255, 0, 0, 0.7)").html("FRONT KICK");
-                        $('.container-descripcion-mensaje').css("background-color", "rgba(255, 0, 0, 0.7)").html("Levanta la rodilla, luego se estira la pierna delante. Es deseable retraer la pierna inmediatamente.");
-                        $('.container-descripcion-reto').html("Realiza el ejercicio por 30 segundos y cambia a la otra pierna");
-                    }
-                    if(currentPosition2 == 34){
-                        $('.containerplayer2-reto').html("");
-                        $('.containerplayer1-reto').html("JUGADOR 1");
-                        $('.container-nombre').css("background-color", "rgba(255, 0, 0, 0.7)").html("BODY WEIGHT SQUATS");
-                        $('.container-descripcion-mensaje').css("background-color", "rgba(255, 0, 0, 0.7)").html("Separe los pies al ancho de los hombros, lentamente dobla las rodillas y baja las caderas para bajar el cuerpo. Mantenga los talones planos en el piso. Mantenga la espalda lo más recta posible durante todo el levantamiento para evitar tensiones o lesiones.");
-                        $('.container-descripcion-reto').html("Realiza el ejercicio por 45 segundos");
-                    }
-                    if(currentPosition2 == 32){
-                        $('.containerplayer2-reto').html("");
-                        $('.containerplayer1-reto').html("JUGADOR 1");
-                        $('.container-nombre').css("background-color", "rgba(255, 0, 0, 0.7)").html("PELVIC SCOOP");
-                        $('.container-descripcion-mensaje').css("background-color", "rgba(255, 0, 0, 0.7)").html("Colocate en una superficie plana y eleva tus rodillas manteniendo los pies en el suelo, finalmente eleva la pelvis. Realiza las repeticiones de forma continua.");
-                        $('.container-descripcion-reto').html("Realiza el ejercicio por 2 minutos");
-                    }
-                    if(currentPosition2 == 30){
-                        $('.containerplayer2-reto').html("");
-                        $('.containerplayer1-reto').html("JUGADOR 1");
-                        $('.container-nombre').css("background-color", "rgba(255, 0, 0, 0.7)").html("ROTATION");
-                        $('.container-descripcion-mensaje').css("background-color", "rgba(255, 0, 0, 0.7)").html("Recuéstate de forma lateral en el suelo, levantar las caderas con el codo apoyado en el suelo, estirar el brazo libre hacia el techo y posteriormente llevarlo hacia adelante. Repetir el mismo procedimiento las veces que quieras.");
-                        $('.container-descripcion-reto').html("Realiza el ejercicio por 2 minutos y luego cambia de brazo");
-                    }
-                    if(currentPosition2 == 28){
-                        $('.containerplayer2-reto').html("");
-                        $('.containerplayer1-reto').html("JUGADOR 1");
-                        $('.container-nombre').css("background-color", "rgba(255, 0, 0, 0.7)").html("FRONT KICK");
-                        $('.container-descripcion-mensaje').css("background-color", "rgba(255, 0, 0, 0.7)").html("Levanta la rodilla, luego se estira la pierna delante. Es deseable retraer la pierna inmediatamente.");
-                        $('.container-descripcion-reto').html("Realiza el ejercicio por 30 segundos y cambia de pierna");
-                    }
-                    if(currentPosition2 == 26){
-                        $('.containerplayer2-reto').html("");
-                        $('.containerplayer1-reto').html("JUGADOR 1");
-                        $('.container-nombre').css("background-color", "rgba(255, 0, 0, 0.7)").html("SIDE PLANK");
-                        $('.container-descripcion-mensaje').css("background-color", "rgba(255, 0, 0, 0.7)").html("Apoya una mano en la esterilla y la otra enganchada al cuerpo, luego elévate hasta que tengas un brazo y los pies sobre el suelo. El brazo que has colocado sobre la esterilla tienes que flexionarlo y los pies deben de estar juntos. Por otro lado, las piernas mántenlas rectas intentando que el peso no caiga hacia abajo. Mantener esa posición el tiempo que quieras.");
-                        $('.container-descripcion-reto').html("Mantén la posición por un minuto y cambia de brazo");
-                    }
-                    if(currentPosition2 == 24){
-                        $('.containerplayer2-reto').html("");
-                        $('.containerplayer1-reto').html("JUGADOR 1");
-                        $('.container-nombre').css("background-color", "rgba(255, 0, 0, 0.7)").html("JUMPING JACKS");
-                        $('.container-descripcion-mensaje').css("background-color", "rgba(255, 0, 0, 0.7)").html("Primero, sitúate de pie con los pies juntos y los brazos extendidos a lo largo del cuerpo; Luego, salta con las piernas y los pies a los lados, mientras levantas los brazos por encima de la cabeza. Debes asegurarte de mantener las rodillas relajadas y de flexionarlas un poco mientras aterrizas. Esto hará que evites lesiones por el impacto repetitivo.");
-                        $('.container-descripcion-reto').html("Realiza el ejercicio por un minuto");
-                    }
-                    if(currentPosition2 == 22){
-                        $('.containerplayer2-reto').html("");
-                        $('.containerplayer1-reto').html("JUGADOR 1");
-                        $('.container-nombre').css("background-color", "rgba(255, 0, 0, 0.7)").html("PLANK LEG RAISE");
-                        $('.container-descripcion-mensaje').css("background-color", "rgba(255, 0, 0, 0.7)").html("Coloca tus codos en el suelo o esterilla y eleva tu cuerpo, eleva tus piernas, de manera alternada, en forma diagonal.");
-                        $('.container-descripcion-reto').html("Realiza 30 repeticiones");
-                    }
-                    if(currentPosition2 == 20){
-                        $('.containerplayer2-reto').html("");
-                        $('.containerplayer1-reto').html("JUGADOR 1");
-                        $('.container-nombre').css("background-color", "rgba(255, 0, 0, 0.7)").html("BODY WEIGHT SQUATS");
-                        $('.container-descripcion-mensaje').css("background-color", "rgba(255, 0, 0, 0.7)").html("Separe los pies al ancho de los hombros, lentamente dobla las rodillas y baja las caderas para bajar el cuerpo. Mantenga los talones planos en el piso. Mantenga la espalda lo más recta posible durante todo el levantamiento para evitar tensiones o lesiones.");
-                        $('.container-descripcion-reto').html("Realiza el ejercicio por un minuto");
-                    }
-                    if(currentPosition2 == 18){
-                        $('.containerplayer2-reto').html("");
-                        $('.containerplayer1-reto').html("JUGADOR 1");
-                        $('.container-nombre').css("background-color", "rgba(255, 0, 0, 0.7)").html("KNEE BENT PUSH UP");
-                        $('.container-descripcion-mensaje').css("background-color", "rgba(255, 0, 0, 0.7)").html("Colócate en el piso con los brazos estirados y las rodillas felxionadas 90 grados, luego baja el pecho tratando de mantener las rodillas en la misma posición.");
-                        $('.container-descripcion-reto').html("Realiza 30 repeticiones");
-                    }
-                    if(currentPosition2 == 16){
-                        $('.containerplayer2-reto').html("");
-                        $('.containerplayer1-reto').html("JUGADOR 1");
-                        $('.container-nombre').css("background-color", "rgba(255, 0, 0, 0.7)").html("ELEVATED SIDE PLANK");
-                        $('.container-descripcion-mensaje').css("background-color", "rgba(255, 0, 0, 0.7)").html("Apoya una mano en la esterilla, luego elévate hasta que tengas un brazo y los pies sobre el suelo. El brazo que has colocado sobre la esterilla tienes que flexionarlo y los pies deben de estar juntos. Por otro lado, las piernas mántenlas rectas intentando que el peso no caiga hacia abajo, el brazo libre debes elevarlo hacia el techo y engacharlo al cuerpo de manera secuencial.");
-                        $('.container-descripcion-reto').html("Realiza 30 repeticiones");
-                    }
-                    if(currentPosition2 == 14){
-                        $('.containerplayer2-reto').html("");
-                        $('.containerplayer1-reto').html("JUGADOR 1");
-                        $('.container-nombre').css("background-color", "rgba(255, 0, 0, 0.7)").html("PELVIC SCOOP");
-                        $('.container-descripcion-mensaje').css("background-color", "rgba(255, 0, 0, 0.7)").html("Colocate en una superficie plana y eleva tus rodillas manteniendo los pies en el suelo, finalmente eleva la pelvis. Realiza las repeticiones de forma continua.");
-                        $('.container-descripcion-reto').html("Realiza 30 repeticiones");
-                    }
-                    if(currentPosition2 == 12){
-                        $('.containerplayer2-reto').html("");
-                        $('.containerplayer1-reto').html("JUGADOR 1");
-                        $('.container-nombre').css("background-color", "rgba(255, 0, 0, 0.7)").html("BODY WEIGHT SQUATS");
-                        $('.container-descripcion-mensaje').css("background-color", "rgba(255, 0, 0, 0.7)").html("Separe los pies al ancho de los hombros, lentamente dobla las rodillas y baja las caderas para bajar el cuerpo. Mantenga los talones planos en el piso. Mantenga la espalda lo más recta posible durante todo el levantamiento para evitar tensiones o lesiones.");
-                        $('.container-descripcion-reto').html("Realiza 10 repeticiones");
-                    }
-                    if(currentPosition2 == 10){
-                        $('.containerplayer2-reto').html("");
-                        $('.containerplayer1-reto').html("JUGADOR 1");
-                        $('.container-nombre').css("background-color", "rgba(255, 0, 0, 0.7)").html("KNEES PULL");
-                        $('.container-descripcion-mensaje').css("background-color", "rgba(255, 0, 0, 0.7)").html("Siéntate en el suelo, apoya tus manos de forma lateral en el suelo y flexiona las piernas hacia el pecho y luego estíralas manteniendolas en el aire, debes realizar la secuencia de forma repetida.");
-                        $('.container-descripcion-reto').html("Realiza 30 repeticiones");
-                    }
-                    if(currentPosition2 == 8){
-                        $('.containerplayer2-reto').html("");
-                        $('.containerplayer1-reto').html("JUGADOR 1");
-                        $('.container-nombre').css("background-color", "rgba(255, 0, 0, 0.7)").html("JUMPING JACKS");
-                        $('.container-descripcion-mensaje').css("background-color", "rgba(255, 0, 0, 0.7)").html("Primero, sitúate de pie con los pies juntos y los brazos extendidos a lo largo del cuerpo; Luego, salta con las piernas y los pies a los lados, mientras levantas los brazos por encima de la cabeza. Debes asegurarte de mantener las rodillas relajadas y de flexionarlas un poco mientras aterrizas. Esto hará que evites lesiones por el impacto repetitivo.");
-                        $('.container-descripcion-reto').html("Realiza 10 repeticiones");
-                    }
-                    if(currentPosition2 == 6){
-                        $('.containerplayer2-reto').html("");
-                        $('.containerplayer1-reto').html("JUGADOR 1");
-                        $('.container-nombre').css("background-color", "rgba(255, 0, 0, 0.7)").html("CHAIR STEP UP");
-                        $('.container-descripcion-mensaje').css("background-color", "rgba(255, 0, 0, 0.7)").html("Coloca una silla frente a una pared, luego coloca una de tus piernas encima de la silla impúlsate y sube a la silla. Realiza la repetición las veces que consideres necesario.");
-                        $('.container-descripcion-reto').html("Realiza 10 repeticiones");
-                    }
-                    if(currentPosition2 == 4){
-                        $('.containerplayer2-reto').html("");
-                        $('.containerplayer1-reto').html("JUGADOR 1");
-                        $('.container-nombre').css("background-color", "rgba(255, 0, 0, 0.7)").html("PUSH UP");
-                        $('.container-descripcion-mensaje').css("background-color", "rgba(255, 0, 0, 0.7)").html("Coloca las manos debajo de los hombros con los dedos índices apuntando hacia delante. Para mayor estabilidad en los brazos y en los hombros, mantén las manos firmes en el suelo e intenta rotar los codos hacia fuera. Dedos índice apuntando hacia delante. Coloca las manos justo debajo de los hombros.");
-                        $('.container-descripcion-reto').html("Realiza 15 repeticiones");
-                    }
-                    if(currentPosition2 == 2){
-                        $('.containerplayer2-reto').html("");
-                        $('.containerplayer1-reto').html("JUGADOR 1");
-                        $('.container-nombre').css("background-color", "rgba(255, 0, 0, 0.7)").html("LUNGE");
-                        $('.container-descripcion-mensaje').css("background-color", "rgba(255, 0, 0, 0.7)").html("Apoya las manos en la cintura, separa un poco las piernas, luego dar un paso hacia adelante procurando que la pierna no se doble más de 90 grados, la pierna de atrás se flexionará hasta casi tocar el suelo. Volver a la posición inicial y realizar el mismo proceso con la otra pierna. Procura que la espalda se mantenga recta para evitar lesiones.");
-                        $('.container-descripcion-reto').html("Realiza 15 repeticiones");
-                    }
-
                     if(currentPosition2 == 39 || currentPosition2 == 37 || currentPosition2 == 35 || currentPosition2 == 33 || currentPosition2 == 31 || currentPosition2 == 29 || currentPosition2 == 27 || currentPosition2 == 25 || currentPosition2 == 23 || currentPosition2 == 21 || currentPosition2 == 19 || currentPosition2 == 17 || currentPosition2 == 15 || currentPosition2 == 13 || currentPosition2 == 11 || currentPosition2 == 9 || currentPosition2 == 7 || currentPosition2 == 5 || currentPosition2 == 3 || currentPosition2 == 1){
                         $('.containerplayer2-reto').html("");
                         $('.containerplayer1-reto').html("");
@@ -752,147 +616,6 @@ function lanzardados() {
 
                 if((currentPosition2 >= currentPosition1) || (currentPosition2 <= currentPosition1))
                 {
-                    if(currentPosition1 == 40){
-                        $('.containerplayer1-reto').html("");
-                        $('.containerplayer2-reto').html("JUGADOR 2");
-                        $('.container-nombre').css("background-color", "rgba(0, 0, 255, 0.7)").html("PUSH UP");
-                        $('.container-descripcion-mensaje').css("background-color", "rgba(0, 0, 255, 0.7)").html("Coloca las manos debajo de los hombros con los dedos índices apuntando hacia delante. Para mayor estabilidad en los brazos y en los hombros, mantén las manos firmes en el suelo e intenta rotar los codos hacia fuera. Dedos índice apuntando hacia delante. Coloca las manos justo debajo de los hombros.");
-                        $('.container-descripcion-reto').html("Realiza 10 repeticiones");
-                    }
-                    if(currentPosition1 == 38){
-                        $('.containerplayer1-reto').html("");
-                        $('.containerplayer2-reto').html("JUGADOR 2");
-                        $('.container-nombre').css("background-color", "rgba(0, 0, 255, 0.7)").html("JUMPING JACKS");
-                        $('.container-descripcion-mensaje').css("background-color", "rgba(0, 0, 255, 0.7)").html("Primero, sitúate de pie con los pies juntos y los brazos extendidos a lo largo del cuerpo; Luego, salta con las piernas y los pies a los lados, mientras levantas los brazos por encima de la cabeza. Debes asegurarte de mantener las rodillas relajadas y de flexionarlas un poco mientras aterrizas. Esto hará que evites lesiones por el impacto repetitivo.");
-                        $('.container-descripcion-reto').html("Realiza el ejercicio por un minuto");
-                    }
-                    if(currentPosition1 == 36){
-                        $('.containerplayer1-reto').html("");
-                        $('.containerplayer2-reto').html("JUGADOR 2");
-                        $('.container-nombre').css("background-color", "rgba(0, 0, 255, 0.7)").html("FRONT KICK");
-                        $('.container-descripcion-mensaje').css("background-color", "rgba(0, 0, 255, 0.7)").html("Levanta la rodilla, luego se estira la pierna delante. Es deseable retraer la pierna inmediatamente.");
-                        $('.container-descripcion-reto').html("Realiza el ejercicio por 30 segundos y cambia a la otra pierna");
-                    }
-                    if(currentPosition1 == 34){
-                        $('.containerplayer1-reto').html("");
-                        $('.containerplayer2-reto').html("JUGADOR 2");
-                        $('.container-nombre').css("background-color", "rgba(0, 0, 255, 0.7)").html("BODY WEIGHT SQUATS");
-                        $('.container-descripcion-mensaje').css("background-color", "rgba(0, 0, 255, 0.7)").html("Separe los pies al ancho de los hombros, lentamente dobla las rodillas y baja las caderas para bajar el cuerpo. Mantenga los talones planos en el piso. Mantenga la espalda lo más recta posible durante todo el levantamiento para evitar tensiones o lesiones.");
-                        $('.container-descripcion-reto').html("Realiza el ejercicio por 45 segundos");
-                    }
-                    if(currentPosition1 == 32){
-                        $('.containerplayer1-reto').html("");
-                        $('.containerplayer2-reto').html("JUGADOR 2");
-                        $('.container-nombre').css("background-color", "rgba(0, 0, 255, 0.7)").html("PELVIC SCOOP");
-                        $('.container-descripcion-mensaje').css("background-color", "rgba(0, 0, 255, 0.7)").html("Colocate en una superficie plana y eleva tus rodillas manteniendo los pies en el suelo, finalmente eleva la pelvis. Realiza las repeticiones de forma continua.");
-                        $('.container-descripcion-reto').html("Realiza el ejercicio por 2 minutos");
-                    }
-                    if(currentPosition1 == 30){
-                        $('.containerplayer1-reto').html("");
-                        $('.containerplayer2-reto').html("JUGADOR 2");
-                        $('.container-nombre').css("background-color", "rgba(0, 0, 255, 0.7)").html("ROTATION");
-                        $('.container-descripcion-mensaje').css("background-color", "rgba(0, 0, 255, 0.7)").html("Recuéstate de forma lateral en el suelo, levantar las caderas con el codo apoyado en el suelo, estirar el brazo libre hacia el techo y posteriormente llevarlo hacia adelante. Repetir el mismo procedimiento las veces que quieras.");
-                        $('.container-descripcion-reto').html("Realiza el ejercicio por 2 minutos y luego cambia de brazo");
-                    }
-                    if(currentPosition1 == 28){
-                        $('.containerplayer1-reto').html("");
-                        $('.containerplayer2-reto').html("JUGADOR 2");
-                        $('.container-nombre').css("background-color", "rgba(0, 0, 255, 0.7)").html("FRONT KICK");
-                        $('.container-descripcion-mensaje').css("background-color", "rgba(0, 0, 255, 0.7)").html("Levanta la rodilla, luego se estira la pierna delante. Es deseable retraer la pierna inmediatamente.");
-                        $('.container-descripcion-reto').html("Realiza el ejercicio por 30 segundos y cambia de pierna");
-                    }
-                    if(currentPosition1 == 26){
-                        $('.containerplayer1-reto').html("");
-                        $('.containerplayer2-reto').html("JUGADOR 2");
-                        $('.container-nombre').css("background-color", "rgba(0, 0, 255, 0.7)").html("SIDE PLANK");
-                        $('.container-descripcion-mensaje').css("background-color", "rgba(0, 0, 255, 0.7)").html("Apoya una mano en la esterilla y la otra enganchada al cuerpo, luego elévate hasta que tengas un brazo y los pies sobre el suelo. El brazo que has colocado sobre la esterilla tienes que flexionarlo y los pies deben de estar juntos. Por otro lado, las piernas mántenlas rectas intentando que el peso no caiga hacia abajo. Mantener esa posición el tiempo que quieras.");
-                        $('.container-descripcion-reto').html("Mantén la posición por un minuto y cambia de brazo");
-                    }
-                    if(currentPosition1 == 24){
-                        $('.containerplayer1-reto').html("");
-                        $('.containerplayer2-reto').html("JUGADOR 2");
-                        $('.container-nombre').css("background-color", "rgba(0, 0, 255, 0.7)").html("JUMPING JACKS");
-                        $('.container-descripcion-mensaje').css("background-color", "rgba(0, 0, 255, 0.7)").html("Primero, sitúate de pie con los pies juntos y los brazos extendidos a lo largo del cuerpo; Luego, salta con las piernas y los pies a los lados, mientras levantas los brazos por encima de la cabeza. Debes asegurarte de mantener las rodillas relajadas y de flexionarlas un poco mientras aterrizas. Esto hará que evites lesiones por el impacto repetitivo.");
-                        $('.container-descripcion-reto').html("Realiza el ejercicio por un minuto");
-                    }
-                    if(currentPosition1 == 22){
-                        $('.containerplayer1-reto').html("");
-                        $('.containerplayer2-reto').html("JUGADOR 2");
-                        $('.container-nombre').css("background-color", "rgba(0, 0, 255, 0.7)").html("PLANK LEG RAISE");
-                        $('.container-descripcion-mensaje').css("background-color", "rgba(0, 0, 255, 0.7)").html("Coloca tus codos en el suelo o esterilla y eleva tu cuerpo, eleva tus piernas, de manera alternada, en forma diagonal.");
-                        $('.container-descripcion-reto').html("Realiza 30 repeticiones");
-                    }
-                    if(currentPosition1 == 20){
-                        $('.containerplayer1-reto').html("");
-                        $('.containerplayer2-reto').html("JUGADOR 2");
-                        $('.container-nombre').css("background-color", "rgba(0, 0, 255, 0.7)").html("BODY WEIGHT SQUATS");
-                        $('.container-descripcion-mensaje').css("background-color", "rgba(0, 0, 255, 0.7)").html("Separe los pies al ancho de los hombros, lentamente dobla las rodillas y baja las caderas para bajar el cuerpo. Mantenga los talones planos en el piso. Mantenga la espalda lo más recta posible durante todo el levantamiento para evitar tensiones o lesiones.");
-                        $('.container-descripcion-reto').html("Realiza el ejercicio por un minuto");
-                    }
-                    if(currentPosition1 == 18){
-                        $('.containerplayer1-reto').html("");
-                        $('.containerplayer2-reto').html("JUGADOR 2");
-                        $('.container-nombre').css("background-color", "rgba(0, 0, 255, 0.7)").html("KNEE BENT PUSH UP");
-                        $('.container-descripcion-mensaje').css("background-color", "rgba(0, 0, 255, 0.7)").html("Colócate en el piso con los brazos estirados y las rodillas felxionadas 90 grados, luego baja el pecho tratando de mantener las rodillas en la misma posición.");
-                        $('.container-descripcion-reto').html("Realiza 30 repeticiones");
-                    }
-                    if(currentPosition1 == 16){
-                        $('.containerplayer1-reto').html("");
-                        $('.containerplayer2-reto').html("JUGADOR 2");
-                        $('.container-nombre').css("background-color", "rgba(0, 0, 255, 0.7)").html("ELEVATED SIDE PLANK");
-                        $('.container-descripcion-mensaje').css("background-color", "rgba(0, 0, 255, 0.7)").html("Apoya una mano en la esterilla, luego elévate hasta que tengas un brazo y los pies sobre el suelo. El brazo que has colocado sobre la esterilla tienes que flexionarlo y los pies deben de estar juntos. Por otro lado, las piernas mántenlas rectas intentando que el peso no caiga hacia abajo, el brazo libre debes elevarlo hacia el techo y engacharlo al cuerpo de manera secuencial.");
-                        $('.container-descripcion-reto').html("Realiza 30 repeticiones");
-                    }
-                    if(currentPosition1 == 14){
-                        $('.containerplayer1-reto').html("");
-                        $('.containerplayer2-reto').html("JUGADOR 2");
-                        $('.container-nombre').css("background-color", "rgba(0, 0, 255, 0.7)").html("PELVIC SCOOP");
-                        $('.container-descripcion-mensaje').css("background-color", "rgba(0, 0, 255, 0.7)").html("Colocate en una superficie plana y eleva tus rodillas manteniendo los pies en el suelo, finalmente eleva la pelvis. Realiza las repeticiones de forma continua.");
-                        $('.container-descripcion-reto').html("Realiza 30 repeticiones");
-                    }
-                    if(currentPosition1 == 12){
-                        $('.containerplayer1-reto').html("");
-                        $('.containerplayer2-reto').html("JUGADOR 2");
-                        $('.container-nombre').css("background-color", "rgba(0, 0, 255, 0.7)").html("BODY WEIGHT SQUATS");
-                        $('.container-descripcion-mensaje').css("background-color", "rgba(0, 0, 255, 0.7)").html("Separe los pies al ancho de los hombros, lentamente dobla las rodillas y baja las caderas para bajar el cuerpo. Mantenga los talones planos en el piso. Mantenga la espalda lo más recta posible durante todo el levantamiento para evitar tensiones o lesiones.");
-                        $('.container-descripcion-reto').html("Realiza 10 repeticiones");
-                    }
-                    if(currentPosition1 == 10){
-                        $('.containerplayer1-reto').html("");
-                        $('.containerplayer2-reto').html("JUGADOR 2");
-                        $('.container-nombre').css("background-color", "rgba(0, 0, 255, 0.7)").html("KNEES PULL");
-                        $('.container-descripcion-mensaje').css("background-color", "rgba(0, 0, 255, 0.7)").html("Siéntate en el suelo, apoya tus manos de forma lateral en el suelo y flexiona las piernas hacia el pecho y luego estíralas manteniendolas en el aire, debes realizar la secuencia de forma repetida.");
-                        $('.container-descripcion-reto').html("Realiza 30 repeticiones");
-                    }
-                    if(currentPosition1 == 8){
-                        $('.containerplayer1-reto').html("");
-                        $('.containerplayer2-reto').html("JUGADOR 2");
-                        $('.container-nombre').css("background-color", "rgba(0, 0, 255, 0.7)").html("JUMPING JACKS");
-                        $('.container-descripcion-mensaje').css("background-color", "rgba(0, 0, 255, 0.7)").html("Primero, sitúate de pie con los pies juntos y los brazos extendidos a lo largo del cuerpo; Luego, salta con las piernas y los pies a los lados, mientras levantas los brazos por encima de la cabeza. Debes asegurarte de mantener las rodillas relajadas y de flexionarlas un poco mientras aterrizas. Esto hará que evites lesiones por el impacto repetitivo.");
-                        $('.container-descripcion-reto').html("Realiza 10 repeticiones");
-                    }
-                    if(currentPosition1 == 6){
-                        $('.containerplayer1-reto').html("");
-                        $('.containerplayer2-reto').html("JUGADOR 2");
-                        $('.container-nombre').css("background-color", "rgba(0, 0, 255, 0.7)").html("CHAIR STEP UP");
-                        $('.container-descripcion-mensaje').css("background-color", "rgba(0, 0, 255, 0.7)").html("Coloca una silla frente a una pared, luego coloca una de tus piernas encima de la silla impúlsate y sube a la silla. Realiza la repetición las veces que consideres necesario.");
-                        $('.container-descripcion-reto').html("Realiza 10 repeticiones");
-                    }
-                    if(currentPosition1 == 4){
-                        $('.containerplayer1-reto').html("");
-                        $('.containerplayer2-reto').html("JUGADOR 2");
-                        $('.container-nombre').css("background-color", "rgba(0, 0, 255, 0.7)").html("PUSH UP");
-                        $('.container-descripcion-mensaje').css("background-color", "rgba(0, 0, 255, 0.7)").html("Coloca las manos debajo de los hombros con los dedos índices apuntando hacia delante. Para mayor estabilidad en los brazos y en los hombros, mantén las manos firmes en el suelo e intenta rotar los codos hacia fuera. Dedos índice apuntando hacia delante. Coloca las manos justo debajo de los hombros.");
-                        $('.container-descripcion-reto').html("Realiza 15 repeticiones");
-                    }
-                    if(currentPosition1 == 2){
-                        $('.containerplayer1-reto').html("");
-                        $('.containerplayer2-reto').html("JUGADOR 2");
-                        $('.container-nombre').css("background-color", "rgba(0, 0, 255, 0.7)").html("LUNGE");
-                        $('.container-descripcion-mensaje').css("background-color", "rgba(0, 0, 255, 0.7)").html("Apoya las manos en la cintura, separa un poco las piernas, luego dar un paso hacia adelante procurando que la pierna no se doble más de 90 grados, la pierna de atrás se flexionará hasta casi tocar el suelo. Volver a la posición inicial y realizar el mismo proceso con la otra pierna. Procura que la espalda se mantenga recta para evitar lesiones.");
-                        $('.container-descripcion-reto').html("Realiza 15 repeticiones");
-                    }
-
                     if(currentPosition1 == 39 || currentPosition1 == 37 || currentPosition1 == 35 || currentPosition1 == 33 || currentPosition1 == 31 || currentPosition1 == 29 || currentPosition1 == 27 || currentPosition1 == 25 || currentPosition1 == 23 || currentPosition1 == 21 || currentPosition1 == 19 || currentPosition1 == 17 || currentPosition1 == 15 || currentPosition1 == 13 || currentPosition1 == 11 || currentPosition1 == 9 || currentPosition1 == 7 || currentPosition1 == 5 || currentPosition1 == 3 || currentPosition1 == 1){
                         $('.containerplayer2-reto').html("");
                         $('.containerplayer1-reto').html("");
@@ -900,7 +623,6 @@ function lanzardados() {
                         $('.container-descripcion-mensaje').html("");
                         $('.container-descripcion-reto').html("");
                     }
-
 
                     if(currentPosition2 == 40){
                         $('.containerplayer1-reto').html("");
